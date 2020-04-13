@@ -43,6 +43,7 @@ region_enabled = true
 region_rect = Rect2( 0, 0, 1280, 720 )
 
 [node name="FollowAgent" parent="." instance=ExtResource( 3 )]
+visible = false
 
 [node name="ArriveAgent" parent="." instance=ExtResource( 4 )]
 position = Vector2( 500, 0 )
